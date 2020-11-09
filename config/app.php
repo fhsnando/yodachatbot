@@ -2,6 +2,9 @@
 
 return [
 
+    "api_key" => env("APIkey"),
+    "secret" => env("SECRET"),
+
     /*
     |--------------------------------------------------------------------------
     | Application Name

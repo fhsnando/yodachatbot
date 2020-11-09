@@ -11,6 +11,11 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+//Route::get('/', function () {
+//    return view('welcome');
+//});
+
+//Auth::routes();
+
+Route::get('/', 'HomeController@index')->name('home');
+Route::post('/sendMessage', 'HomeController@sendMessage')->name('sendMessage');
