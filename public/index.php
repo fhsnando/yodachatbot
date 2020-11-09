@@ -20,8 +20,9 @@ define('LARAVEL_START', microtime(true));
 | loading any of our classes later on. It feels great to relax.
 |
 */
-
-require __DIR__.'/../vendor/autoload.php';
+//require __DIR__ . '/../yodachatbot/app/Helpers/functions.php';
+require __DIR__ . '/../yodachatbot/vendor/autoload.php';
+//require __DIR__.'/../app/Helpers/functions.php';
 
 /*
 |--------------------------------------------------------------------------
@@ -35,7 +36,7 @@ require __DIR__.'/../vendor/autoload.php';
 |
 */
 
-$app = require_once __DIR__.'/../bootstrap/app.php';
+$app = require_once __DIR__ . '/../yodachatbot/bootstrap/app.php';
 
 /*
 |--------------------------------------------------------------------------
